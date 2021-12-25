@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DA8358FF277762DF006EEFB9 /* CoinCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA8358FE277762DF006EEFB9 /* CoinCollectionViewCell.swift */; };
 		DAB89F122773CAD40066BDE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB89F112773CAD40066BDE2 /* AppDelegate.swift */; };
 		DAB89F142773CAD40066BDE2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB89F132773CAD40066BDE2 /* SceneDelegate.swift */; };
 		DAB89F162773CAD40066BDE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DAB89F152773CAD40066BDE2 /* ViewController.swift */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DA8358FE277762DF006EEFB9 /* CoinCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinCollectionViewCell.swift; sourceTree = "<group>"; };
 		DAB89F0E2773CAD40066BDE2 /* ByteCoin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ByteCoin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DAB89F112773CAD40066BDE2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DAB89F132773CAD40066BDE2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +62,7 @@
 				DAB89F1A2773CAD60066BDE2 /* Assets.xcassets */,
 				DAB89F1C2773CAD60066BDE2 /* LaunchScreen.storyboard */,
 				DAB89F1F2773CAD60066BDE2 /* Info.plist */,
+				DA8358FE277762DF006EEFB9 /* CoinCollectionViewCell.swift */,
 			);
 			path = ByteCoin;
 			sourceTree = "<group>";
@@ -136,6 +139,7 @@
 				DAB89F162773CAD40066BDE2 /* ViewController.swift in Sources */,
 				DAB89F122773CAD40066BDE2 /* AppDelegate.swift in Sources */,
 				DAB89F142773CAD40066BDE2 /* SceneDelegate.swift in Sources */,
+				DA8358FF277762DF006EEFB9 /* CoinCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
