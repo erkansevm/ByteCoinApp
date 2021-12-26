@@ -60,6 +60,7 @@ class CoinCollectionViewCell: UICollectionViewCell {
         let label = UILabel()
         label.text = "+2.67%"
         label.translatesAutoresizingMaskIntoConstraints = false
+        //if differance positive
         label.textColor = greenColor
         return label
     }()
@@ -68,6 +69,7 @@ class CoinCollectionViewCell: UICollectionViewCell {
         let imageView = UIImageView()
         imageView.image = UIImage(systemName: "chevron.up.circle")
         imageView.translatesAutoresizingMaskIntoConstraints = false
+        //if differance positive
         imageView.tintColor = greenColor
         return imageView
     }()
@@ -146,7 +148,7 @@ class CoinCollectionViewCell: UICollectionViewCell {
     
     func configureDifferenceLabel() {
         NSLayoutConstraint.activate([
-            differanceLabel.trailingAnchor.constraint(equalTo: indicatorView.leadingAnchor),
+            differanceLabel.trailingAnchor.constraint(equalTo: indicatorView.leadingAnchor, constant: -2),
             differanceLabel.bottomAnchor.constraint(equalTo: typeLabel.bottomAnchor)
         ])
     }
